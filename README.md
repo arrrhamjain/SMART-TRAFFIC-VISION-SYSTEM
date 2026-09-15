@@ -94,3 +94,7 @@ The workflow of the Smart Traffic Vision System is shown below:
 ```bash
 git clone https://github.com/arrrhamjain/SMART-TRAFFIC-VISION-SYSTEM.git
 cd SMART-TRAFFIC-VISION-SYSTEM
+
+### Model
+
+The project uses the YOLO11n model for vehicle detection. If the model file is not available locally, Ultralytics automatically downloads it when the project is run for the first time.
