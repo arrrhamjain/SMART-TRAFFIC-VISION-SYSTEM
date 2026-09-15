@@ -86,3 +86,11 @@ The architecture of the Smart Traffic Vision System is shown below:
 The workflow of the Smart Traffic Vision System is shown below:
 
 ![Project Workflow](diagrams/workflow.png)
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/arrrhamjain/SMART-TRAFFIC-VISION-SYSTEM.git
+cd SMART-TRAFFIC-VISION-SYSTEM
