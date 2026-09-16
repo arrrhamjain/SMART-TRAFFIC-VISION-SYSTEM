@@ -4,12 +4,12 @@
 
 Smart Traffic Vision System is a computer vision-based application that analyzes traffic images and detects vehicles automatically. The system processes input traffic images, detects vehicles, classifies them into different categories, counts the vehicles, tracks detected vehicles, and analyzes the overall traffic density.
 
-The system provides annotated output images and a CSV report containing the traffic analysis results.
+The system provides annotated output images, a CSV report containing traffic analysis results, and a traffic summary visualization.
 
 ## Features
 
 - Traffic image preprocessing
-- Vehicle detection using YOLO
+- Vehicle detection using YOLO11n
 - Vehicle classification
 - Vehicle counting
 - Vehicle tracking
@@ -17,7 +17,7 @@ The system provides annotated output images and a CSV report containing the traf
 - Annotated traffic images
 - CSV-based traffic analysis report
 - Traffic summary visualization
-- Automated testing using pytest
+- Automated testing using Pytest
 
 ## Vehicle Categories
 
@@ -27,6 +27,18 @@ The system identifies the following vehicle categories:
 - Motorcycles
 - Buses
 - Trucks
+
+## Technologies Used
+
+- Python 3.11
+- OpenCV
+- Ultralytics YOLO11n
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- PyYAML
+- Pytest
 
 ## Project Structure
 
@@ -45,6 +57,8 @@ SMART-TRAFFIC-VISION-SYSTEM/
 │       └── detected traffic images
 │
 ├── diagrams/
+│   ├── architecture.png
+│   └── workflow.png
 │
 ├── models/
 │
@@ -73,28 +87,5 @@ SMART-TRAFFIC-VISION-SYSTEM/
 ├── config.py
 ├── main.py
 ├── requirements.txt
+├── statement.md
 └── README.md
-
-## System Architecture
-
-The architecture of the Smart Traffic Vision System is shown below:
-
-![System Architecture](diagrams/architecture.png)
-
-## Project Workflow
-
-The workflow of the Smart Traffic Vision System is shown below:
-
-![Project Workflow](diagrams/workflow.png)
-
-## Installation and Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/arrrhamjain/SMART-TRAFFIC-VISION-SYSTEM.git
-cd SMART-TRAFFIC-VISION-SYSTEM
-
-### Model
-
-The project uses the YOLO11n model for vehicle detection. If the model file is not available locally, Ultralytics automatically downloads it when the project is run for the first time.
